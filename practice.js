@@ -1,3 +1,5 @@
+"use strics";
+
 //演習1
 console.log("山本優");
 
@@ -104,6 +106,31 @@ function printName(name){
 };
 
 console.log(printName("山本優"));
+
+//演習8-2
+console.log("・演習8-2");
+
+//足し算
+function add(x, y){
+    return x + y;
+}
+
+function sub(x,y){
+    return x-y;
+}
+
+function multi(x,y){
+    return x * y;
+}
+
+function div(x,y){
+    return x / y;
+}
+
+console.log(add(5,3));
+console.log(sub(5,3));
+console.log(multi(5,3));
+console.log(div(5,3));
 
 
 
