@@ -143,6 +143,38 @@ let printNameVariable = function(nickName){
 
 console.log(printNameVariable("ユリ"));
 
+//関数の中でニックネームを変数に入れられたらいいな。
+
+//演習9-2
+
+console.log("演習9-2");
+
+let addVariable = function(v,z){
+    return v + z;
+}
+
+let subVariable = function(v,z){
+    return v - z;
+}
+
+let multiVariable = function(v,z){
+    return v * z;
+}
+
+let divVariable = function(v,z){
+    return v / z;
+}
+
+console.log(addVariable(5,3));
+console.log(subVariable(5,3));
+console.log(multiVariable(5,3));
+console.log(divVariable(5,3));
+
+
+
+
+
+
 
 
 
