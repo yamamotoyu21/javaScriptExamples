@@ -42,3 +42,15 @@ if(age >= 0 && age <= 4){
     console.log("変数の値が不正です");
 }
 
+//演習5
+console.log("・演習5")
+let answer = 0;
+for(let i = 0; i <= 10; i++){
+    answer = answer += i;
+    if(answer = 55){
+        console.log(answer);
+    }
+}
+
+
+
