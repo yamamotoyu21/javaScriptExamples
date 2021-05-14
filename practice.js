@@ -83,6 +83,30 @@ for(let num of nums2){
 }
 console.log(forOfSum);
 
+//演習7
+console.log("・演習7");
+let capitals = {
+    "日本":"東京",
+    "スリランカ": "スリジャワワルだナプラコッテ",
+    "タイ": "クルンテープ"
+
+};
+console.log(capitals["日本"]);
+console.log(capitals["タイ"]);
+capitals["タイ"] = "バンコク";
+
+//演習8
+
+console.log("・演習8");
+
+function printName(name){
+    return name;
+};
+
+console.log(printName("山本優"));
+
+
+
 
 
 
