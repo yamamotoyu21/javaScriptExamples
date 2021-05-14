@@ -46,11 +46,48 @@ if(age >= 0 && age <= 4){
 console.log("・演習5")
 let answer = 0;
 for(let i = 0; i <= 10; i++){
-    answer = answer += i;
-    if(answer = 55){
-        console.log(answer);
+    answer += i;
+    }
+    console.log(answer);
+
+
+//演習5-2(!未完成)
+console.log("・演習5-2")
+
+
+for(let j = 1; j <= 9; j++){
+    for(let k = 1; k <= 9; k++){
+        let multi = j*k; 
+        console.log(multi);
     }
 }
+
+
+ //演習6
+ console.log("・演習6")
+ let numsSum = 0;
+ let nums = [1,2,3,4,5,6,7,8,9,10];
+ for(let l = 0; l < nums.length; l++){
+     numsSum +=  nums[l];
+ }
+ console.log(numsSum);
+
+ //演習6 for-of文
+
+ console.log("・演習6 for-of文");
+ let nums2 = [1,2,3,4,5,6,7,8,9,10];
+ let forOfSum = 0;
+
+for(let num of nums2){
+    forOfSum += num;
+}
+console.log(forOfSum);
+
+
+
+
+
+
 
 
 
