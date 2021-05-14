@@ -132,6 +132,18 @@ console.log(sub(5,3));
 console.log(multi(5,3));
 console.log(div(5,3));
 
+//演習9
+
+console.log("演習9");
+
+
+let printNameVariable = function(nickName){
+   return nickName;
+}
+
+console.log(printNameVariable("ユリ"));
+
+
 
 
 
